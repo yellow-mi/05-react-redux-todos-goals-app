@@ -1,5 +1,5 @@
 import React from "react"
-import List from '.List'
+import List from './List'
 import { connect } from 'react-redux'
 import {
   handleAddTodo,

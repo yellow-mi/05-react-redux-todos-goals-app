@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux'
-import List './List'
+import List from './List'
+
 import {
   handleAddGoal,
   handleDeleteGoal
