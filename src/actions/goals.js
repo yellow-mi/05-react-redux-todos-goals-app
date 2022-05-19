@@ -3,13 +3,6 @@ import API from "goals-todos-api"
 export const ADD_GOAL = 'ADD_GOAL'
 export const REMOVE_GOAL = 'REMOVE_GOAL'
 
-function toggleTodo(id) {
-  return {
-    type: TOGGLE_TODO,
-    id,
-  }
-}
-
 function addGoal(goal) {
   return {
     type: ADD_GOAL,
